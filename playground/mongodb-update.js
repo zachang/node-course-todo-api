@@ -3,7 +3,7 @@ const {MongoClient, ObjectID} = require('mongodb');
 
 let obj = new ObjectID();
 console.log(obj);
-let url = "mongodb://localhost:27017/Todoapp";
+let url = "mongodb://localhost:27017/TodoApp";
 
 MongoClient.connect(url, (err, db) =>{
   if(err){
